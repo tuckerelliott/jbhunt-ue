@@ -29,5 +29,15 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    text-align: left;
+  }
+
+  .columns > div > div > p:nth-child(1) {
+    background-color: #fedb00;
+    padding: 40px;
+  }
+
+  .columns > div > div > p:nth-child(2) {
+    text-align: center;
   }
 }

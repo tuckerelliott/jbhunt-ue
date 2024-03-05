@@ -1,9 +1,12 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: #f2f4f6;
   width: 100%;
   z-index: 2;
-  position: fixed;
+ /* position: fixed; */
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav {
@@ -53,8 +56,8 @@ header nav p {
   line-height: 1;
 }
 
-header nav a:any-link {
-  color: currentcolor;
+header nav a.button:any-link {
+  background-color: #f2f4f6;
 }
 
 /* hamburger */
@@ -225,9 +228,10 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 2em;
+    gap: 5em;
     margin: 0;
-    font-size: var(--body-font-size-xs);
+    font-size: 12px;
+    text-transform: uppercase;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
